@@ -40,7 +40,7 @@ function Home() {
                 className="heading-name"
                 style={{ fontSize: "4.5rem", letterSpacing: "-2px", fontWeight: "800" }}
               >
-                <strong className="main-name">ARYAN</strong>
+                <strong className="main-name"> Ayush Sharma</strong>
               </motion.h1>
 
               <motion.div

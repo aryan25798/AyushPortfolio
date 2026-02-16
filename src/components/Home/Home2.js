@@ -93,7 +93,7 @@ function Home2() {
                 <li className="social-icons">
                   <motion.a
                     whileHover={{ scale: 1.2, rotate: 10, filter: "drop-shadow(0 0 8px var(--accent-purple))" }}
-                    href="https://github.com/aryan25798"
+                    href="https://github.com/Ayush-1504"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
@@ -104,7 +104,7 @@ function Home2() {
                 <li className="social-icons">
                   <motion.a
                     whileHover={{ scale: 1.2, rotate: -10, filter: "drop-shadow(0 0 8px var(--accent-blue))" }}
-                    href="https://twitter.com/aryan57"
+                    href="https://twitter.com"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
@@ -115,7 +115,7 @@ function Home2() {
                 <li className="social-icons">
                   <motion.a
                     whileHover={{ scale: 1.2, rotate: 10, filter: "drop-shadow(0 0 8px var(--accent-purple))" }}
-                    href="https://www.linkedin.com/in/aryan-a506b8288/"
+                    href="https://www.linkedin.com/in/ayush-sharma-726660265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
@@ -126,7 +126,7 @@ function Home2() {
                 <li className="social-icons">
                   <motion.a
                     whileHover={{ scale: 1.2, rotate: -10, filter: "drop-shadow(0 0 8px var(--accent-blue))" }}
-                    href="https://www.instagram.com/__a_rya_n_/"
+                    href="https://www.instagram.com/imayu_sh_?igsh=dzVxbTYxa25hejdh"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour home-social-icons"

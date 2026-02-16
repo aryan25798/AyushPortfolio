@@ -2,16 +2,17 @@
 
 html {
   --primary-bg: #030014;
-  --accent-purple: #9b51e0;
-  --accent-blue: #00d2ff;
-  --glow-color: rgba(155, 81, 224, 0.5);
-  --glass-bg: rgba(255, 255, 255, 0.01);
-  --glass-border: rgba(255, 255, 255, 0.08);
-  --text-primary: #f8f9fa;
-  --text-secondary: #adb5bd;
-  --section-background-color: var(--primary-bg);
-  --imp-text-color: #bb66ff;
-  --card-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+  --accent-purple: #b026ff;
+  --accent-blue: #00ecff;
+  --glow-purple: rgba(176, 38, 255, 0.6);
+  --glow-blue: rgba(0, 236, 255, 0.6);
+  --glass-bg: rgba(255, 255, 255, 0.03);
+  --glass-border: rgba(255, 255, 255, 0.12);
+  --text-primary: #ffffff;
+  --text-secondary: #b0b0b0;
+  --section-background-color: #030014;
+  --imp-text-color: #d18dff;
+  --card-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.9);
 }
 
 body {
@@ -227,9 +228,9 @@ button:focus {
 }
 
 .glass-container:hover {
-  border: 1px solid rgba(155, 81, 224, 0.6);
-  box-shadow: 0 0 30px rgba(155, 81, 224, 0.3), var(--card-shadow);
-  transform: translateY(-10px) translate3d(0, 0, 0);
+  border: 1px solid rgba(176, 38, 255, 0.6);
+  box-shadow: 0 0 40px rgba(176, 38, 255, 0.4), var(--card-shadow);
+  transform: translateY(-12px) translate3d(0, 0, 0);
 }
 
 .purple {
@@ -238,11 +239,13 @@ button:focus {
 }
 
 .main-name {
-  background: linear-gradient(90deg, #bb66ff, #00d2ff);
+  background: linear-gradient(90deg, #b026ff, #00ecff);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 800;
+  filter: drop-shadow(0 0 10px rgba(176, 38, 255, 0.4));
+  letter-spacing: 1px;
 }
 
 .glass-btn {
@@ -254,10 +257,10 @@ button:focus {
 }
 
 .glass-btn:hover {
-  background: rgba(255, 255, 255, 0.1) !important;
-  border-color: var(--accent-purple) !important;
-  transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(155, 81, 224, 0.3);
+  background: rgba(255, 255, 255, 0.15) !important;
+  border-color: var(--accent-blue) !important;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 20px rgba(0, 236, 255, 0.4);
 }
 
 .navbar {
@@ -692,18 +695,21 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0 4px 15px rgba(176, 38, 255, 0.2) !important;
   color: white !important;
-  background-color: transparent !important;
-  opacity: 0.9 !important;
-  transition: all 0.5s ease 0s !important;
+  background-color: rgba(255, 255, 255, 0.02) !important;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 15px !important;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1) !important;
   height: 100% !important;
 }
 
 .project-card-view:hover {
-  transform: scale(1.02) !important;
-  overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  transform: translateY(-10px) scale(1.02) !important;
+  box-shadow: 0 10px 30px rgba(176, 38, 255, 0.4) !important;
+  border-color: rgba(176, 38, 255, 0.5) !important;
 }
 
 .blog-card {
