@@ -10,7 +10,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
-  const pdf = "/Aryan_resume.pdf"; // ✅ Corrected path (placed in 'public' folder)
+  const pdf = "/Ayush_Analyst (1).pdf"; // ✅ Corrected path (placed in 'public' folder)
 
   useEffect(() => {
     setWidth(window.innerWidth);
